@@ -292,3 +292,130 @@ input[type=submit] {
     background: #4aaaa5;
     border: 0 none;
 }
+
+@media (min-width: 769px) and (max-width:980px) {
+    body {
+        width: 980px;
+
+    }
+
+    header {
+        width: 980px;
+    }
+
+    nav {
+        float: right;
+        margin: 25px 25px;
+        line-height: 15px;
+    }
+
+    nav a {
+        font-size: 14px;
+        
+    }
+
+    #logo {
+        font-size: 24px;
+        height: 70px;
+        line-height: 66px;
+        margin-left: 32px;
+    }
+
+    #masthead {
+        height: 72px;
+    }
+
+    #main-container {
+       padding-top: 100px;
+    }
+
+    .main-section {
+        width: 65%;
+        margin-bottom: 90px;
+        margin-left: 25px;
+    }
+
+    h1 {
+        font-size: 24px;
+        padding-bottom: 15px;
+        line-height: 23px;
+
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 2em;
+    }
+
+    footer {
+        height: 90px;
+    
+    }
+
+/* Portfolio @980px */
+    .work {
+        width: 200px;
+    }
+
+    .work h3 {
+        height: 40px;
+        line-height: 10px;
+    }
+
+    h3 {
+        font-size: 17px;
+        
+    }
+
+    #image1 {
+        width: 200px;
+        height: 150px;
+    }
+
+    #image2 {
+        width: 200px;
+        height: 150px;
+    }
+
+    #image3 {
+        width: 200px;
+        height: 150px;
+    }
+
+    #image4 {
+        width: 200px;
+        height: 150px;
+    }
+
+    #image5 {
+        width: 200px;
+        height: 150px;
+    }
+
+/* Contact @980px */
+
+    label {
+        font-size: 15px;
+    }
+
+    #name,#email {
+        font-size: 12px;
+    }
+
+    textarea {
+        height: 150px;
+    }
+
+    input[type=submit] {
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+}
+
+
+@media (min-width: 641px) and (max-width:768px) {
+
+}
+
+
+@media screen and (max-width:640px) {}
