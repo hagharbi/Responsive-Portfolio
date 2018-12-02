@@ -294,6 +294,8 @@ input[type=submit] {
 }
 
 @media (min-width: 769px) and (max-width:980px) {
+    
+/* General Styling @980px */
     body {
         width: 980px;
 
@@ -414,8 +416,202 @@ input[type=submit] {
 
 
 @media (min-width: 641px) and (max-width:768px) {
+   
+/* General Styling @768px */
+    body {
+        width: 768px;
 
+    }
+
+    header {
+        width: 768px;
+    }
+
+    nav {
+    float: right;
+    margin: 25px 25px;
+    line-height: 15px;
+    }
+
+    nav a {
+        font-size: 14px;
+
+    }
+
+    #logo {
+        font-size: 24px;
+        height: 70px;
+        width: 150px;
+        line-height: 66px;
+        margin-left: 20px;
+    }
+
+
+    #masthead {
+        height: 72px;
+    }
+
+    #main-container {
+        padding-top: 90px;
+        width: 768px;
+    }
+
+    .main-section {
+        width: 93%;
+        max-width: 768px;
+        margin-bottom: 238px;
+        margin-left: 20px;
+        
+    }
+
+    h1 {
+        font-size: 22px;
+        padding-bottom: 15px;
+        line-height: 23px;
+
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 2em;
+    }
+
+    footer {
+        height: 75px;
+        width: 768px;
+
+    }
+
+/* About me @768px*/
+    .auth-image {
+        width: 235px;
+        height: 164px;
+        margin-top: 7px;
+    }
+     
+/* Portfolio @768px */
+    .work {
+        width: 200px;
+    }
+
+    .work h3 {
+        height: 40px;
+        line-height: 10px;
+    }
+
+    h3 {
+        font-size: 17px;
+        
+    }
+
+    #image1 {
+        width: 200px;
+        height: 150px;
+    }
+
+    #image2 {
+        width: 200px;
+        height: 150px;
+    }
+
+    #image3 {
+        width: 200px;
+        height: 150px;
+    }
+
+    #image4 {
+        width: 200px;
+        height: 150px;
+    }
+
+    #image5 {
+        width: 200px;
+        height: 150px;
+    }
+
+/* Contact @768px */
+
+    label {
+        font-size: 15px;
+    }
+
+    #name,#email {
+        font-size: 12px;
+    }
+
+    textarea {
+        height: 150px;
+    }
+
+    input[type=submit] {
+        padding: 5px 15px;
+        font-size: 15px;
+    }
 }
 
 
-@media screen and (max-width:640px) {}
+@media screen and (max-width:640px) {
+
+/* General Styling @640px */
+    body {
+        width: 640px;
+
+    }
+
+    header {
+        width: 640px;
+    }
+
+    nav {
+        width: 640px;
+        line-height: 0px;
+        float: right;
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 14px;
+
+    }
+
+    #logo {
+        font-size: 24px;
+        height: 40px;
+        line-height: 0;
+        width: 640px;
+        padding: 30px;
+    }
+
+    #masthead {
+        height: 133px;
+        width: 640px;
+    }
+
+    #main-container {
+        padding-top: 160px;
+    }
+
+    .main-section {
+        width: 90%;
+        margin-bottom: 90px;
+        margin-left: 25px;
+    }
+
+    h1 {
+        font-size: 24px;
+        padding-bottom: 15px;
+        line-height: 23px;
+
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 2em;
+    }
+
+    footer {
+        height: 90px;
+
+    }
+
+}
